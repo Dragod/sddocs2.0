@@ -7,8 +7,6 @@
   <meta name="description" content="kitchen sink for Unity 4.0">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
-  <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
-  <script src="//unpkg.com/docsify-copy-code"></script>
 </head>
 <body>
   <div id="app"></div>
@@ -21,9 +19,40 @@
       coverpage: true,
       auto2top: true,
       externalLinkTarget: '_self', // default: '_blank'
-      logo: '/_media/screendragon-tiny.png'  // Left sidebar logo
+      logo: '/_media/screendragon-tiny.png',  // Left sidebar logo
+      search: 'auto', // default
+  
+  search : [
+    '/',            // => /README.md
+    '/_get-started' // => /get-started.md
+  ],
+
+  // complete configuration parameters
+  search: {
+    maxAge: 86400000, // Expiration time, the default one day
+    paths: [], // or 'auto'
+    placeholder: 'Type to search',
+
+    // Localization
+    placeholder: {
+      '/': 'Type to search'
+    },
+
+    noData: 'No Results!',
+
+    // Localization
+    noData: {
+      '/': 'No Results'
+    },
+
+    // Headline depth, 1 - 6
+    depth: 2
+  }
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify-copy-code"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
 </body>
 </html>
