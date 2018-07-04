@@ -1,6 +1,12 @@
-# Get started with with the docs
+# Get started with the docs
 
-* Open any console commnad line tool, make sure [node.js](https://nodejs.org/en/) is installed.
-* Type ```npm -v``` in the command line, if it return the version you good to go.
-* Type ```npm i docsify-cli -g```
-* Type ```docsify serve docs```
+## Create a repo and run the installer
+
+* Open your favourite command line tool and make sure you got [Git](https://git-scm.com/) & [node.js](https://nodejs.org/en/) installed
+* Type ``` git clone https://github.com/Dragod/sddocs2.0.git ```
+* Once the repo is downloaded, step into the folder, ``` cd sddocs2.0 ``` (Example; c/repos/sddocs2.0)
+* Run ``` npm install ```
+* Then, ```docsify serve docs```
+* Open your browser at: ``` http://localhost:3000 ```
+* Enjoy the docs! :smile:
+
