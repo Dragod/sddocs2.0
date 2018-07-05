@@ -21,7 +21,9 @@
 
 <iframe width="100%" height="250" src="//jsfiddle.net/FabioP/gjy7f1ve/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-## Round / Square Elements
+## Utility Classes
+
+### Round / Square Elements
 
 These should be used wherever we have a rounded or square element for consistency across the site.
 
@@ -34,9 +36,9 @@ These should be used wherever we have a rounded or square element for consistenc
 * xlarge
 * xxlarge
 
-## Padding / Margin
+### Padding / Margin
 
-### Class names
+#### Class names
 
 * .pa / .ma for padding or margin, then add a position
 * l - left
@@ -47,7 +49,7 @@ These should be used wherever we have a rounded or square element for consistenc
 * tb - top / bottom
 * all - all
 
-### Unit
+#### Unit
 
 * qtr - quarter
 * half - half
