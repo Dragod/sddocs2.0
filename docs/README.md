@@ -19,7 +19,7 @@
 
 ### Input Icons (single icon & double icons)
 
-<iframe width="100%" height="200" src="//jsfiddle.net/FabioP/gjy7f1ve/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="250" src="//jsfiddle.net/FabioP/gjy7f1ve/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ## Round / Square Elements
 
