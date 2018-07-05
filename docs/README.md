@@ -2,6 +2,11 @@
 
 ## Forms
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> efc849216ddf346f512f7fc790dcd06acd7fc2ae
 ### Form item structure
 
 ```html 
@@ -117,3 +122,7 @@ These should be used wherever we have a rounded or square element for consistenc
 ## Tabs
 
 ## Modal header
+<<<<<<< HEAD
+=======
+>>>>>>> 151e6adc19025b48828b3c2987505a3f879f1815
+>>>>>>> efc849216ddf346f512f7fc790dcd06acd7fc2ae
