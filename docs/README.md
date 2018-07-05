@@ -11,15 +11,15 @@
 
 ### Form item structure
 
-<iframe width="100%" height="400" src="//jsfiddle.net/FabioP/w1gsv485/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="350" src="//jsfiddle.net/FabioP/w1gsv485/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ### Wrap form elements
 
-<iframe width="100%" height="400" src="//jsfiddle.net/FabioP/z32bhta5/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="200" src="//jsfiddle.net/FabioP/z32bhta5/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ### Input Icons (single icon & double icons)
 
-<iframe width="100%" height="300" src="//jsfiddle.net/FabioP/gjy7f1ve/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="200" src="//jsfiddle.net/FabioP/gjy7f1ve/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ## Round / Square Elements
 
