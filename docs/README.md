@@ -1,69 +1,21 @@
 # Unity 4.0 docs
 
+## Flex
+
+## Using flex with unity 4.0 classes
+
+<iframe width="100%" height="600" src="//jsfiddle.net/FabioP/axbsrdc3/121/embedded/html,css,result/light/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+
 ## Forms
 
 ### Form item structure
 
-```html 
+<iframe width="100%" height="400" src="//jsfiddle.net/FabioP/w1gsv485/44/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div class="formField "> 
+### Wrap form elements
 
-    <label class="formItemLabel">label</label>
-
-    <div class="formElement">
-
-        <input>
-
-    </div>
-
-</div>
-
-```
-### Floating form elements (elements on the same row)
-
-```html 
-
-<div class="elementList">
-
-  <div class="formField "> 
-
-    <label class="formItemLabel">label</label>
-
-    <div class="formElement">
-
-        <input>
-
-    </div>
-
-  </div>
-
-   <div class="formField "> 
-
-    <label class="formItemLabel">label</label>
-
-    <div class="formElement">
-
-        <input>
-
-    </div>
-
-  </div>
-
-   <div class="formField "> 
-
-    <label class="formItemLabel">label</label>
-
-    <div class="formElement">
-
-        <input>
-
-    </div>
-
-  </div>
-
-</div>
-
-```
+<iframe width="100%" height="400" src="//jsfiddle.net/FabioP/z32bhta5/33/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ## Round / Square Elements
 
@@ -107,13 +59,3 @@ These should be used wherever we have a rounded or square element for consistenc
 
 <div class="ma-all-1"> <!-- Gives a 1 rem margin all around -->
 ```
-
-## List
-
-### Unity List
-
-## Button
-
-## Tabs
-
-## Modal header
