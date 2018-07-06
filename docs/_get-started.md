@@ -1,6 +1,6 @@
 # Get started with the docs
 
-## Create a repo and run the installer
+## Clone the repo and run the installer
 
 * Open your favourite command line tool and make sure you got [Git](https://git-scm.com/) & [node.js](https://nodejs.org/en/) installed
 * Type ``` git clone https://github.com/Dragod/sddocs2.0.git ```
