@@ -36,7 +36,7 @@ These should be used wherever we have a rounded or square element for consistenc
 * xlarge
 * xxlarge
 
-> Round element example 
+> Round / square element example 
 
 ```html
 
@@ -50,7 +50,7 @@ These should be used wherever we have a rounded or square element for consistenc
 
 ```
 
-> Round element example with icon
+> Round / square element example with icon
 
 ```html
 
