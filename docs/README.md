@@ -36,6 +36,8 @@ These should be used wherever we have a rounded or square element for consistenc
 * xlarge
 * xxlarge
 
+!> **Round / Square** are not limited to the "a" tag, you can use anything: div, p, span etc..
+
 > Round / square element example 
 
 ```html
