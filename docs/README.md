@@ -39,18 +39,44 @@ These should be used wherever we have a rounded or square element for consistenc
 > Round element example 
 
 ```html
+
+<!-- Rounded element -->
+
 <a class="rnd-small"></a>
+
+<!-- Square element -->
+
+<a class="sqr-small"></a>
+
 ```
 
 > Round element example with icon
 
 ```html
+
+<!-- Rounded with icon -->
+
 <a class="rnd-small">
 
     <i class="icon-bell-alt"></i>
 
 </a>
+
+<!-- Square with icon -->
+
+<a class="sqr-small">
+
+    <i class="icon-bell-alt"></i>
+
+</a>
+
 ```
+> Dropdown button
+
+```html
+<a class="listLayout sqr-small dropdown"></a>
+```
+
 > Round & square element size as well as dropdown button
 
 <iframe width="100%" height="600" src="//jsfiddle.net/FabioP/zpsLatkx/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
