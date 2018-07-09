@@ -10,7 +10,7 @@
 </head>
 <body>
 
-  <div id="app"></div>
+  <div data-app id="main"></div>
 
 </body>
 <script src="//unpkg.com/vue/dist/vue.js"></script>
@@ -22,6 +22,7 @@
     window.$docsify = {
       name: 'sddocs2.0',
       repo: 'https://github.com/Dragod/sddocs2.0',
+      el: '#main',
       loadNavbar: true,
       externalLinkTarget: '_self', // default: '_blank'
       logo: '/_media/screendragon-tiny.png',  // Left sidebar logo

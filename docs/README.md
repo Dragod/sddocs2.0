@@ -83,6 +83,21 @@ These should be used wherever we have a rounded or square element for consistenc
 
 <iframe width="100%" height="600" src="//jsfiddle.net/FabioP/zpsLatkx/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
+### Fixed Modal Header
+
+```html
+<div class="fixed-modal-header">
+    <h5 class="modal-title">
+        <span class="heading title">Title here</span>
+    </h5>
+    <div class="formButtons">
+      <button class="small" type="button">Button 1</button>
+      <button class="small" type="button">Button 2</button>
+      <a class="close-withPopup close-reveal-modal"></a>
+    </div>
+</div>
+```
+
 ### Padding / Margin
 
 #### Class names
