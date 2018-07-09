@@ -6,7 +6,7 @@
 2. Create a ```.bashrc``` file in the main project folder
 3. Copy and paste the script below inside the ```.bashrc``` that you created at step 2
 4. Open a bash command line and type ```source .bashrc```
-5. If you done all the above correctly, you should be now able to use aliases
+5. If you done all the above correctly, you should be now able to use aliases in a bash shell
 
 ```bash
 # Version: 1.0.1. Date: 25/06/2018. Email: fabio.paniconi@gmail.com

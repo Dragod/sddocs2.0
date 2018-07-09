@@ -105,7 +105,7 @@ How to handle this:
 
 ## VPN
 
-> Download the software [OpenVpn](https://openvpn.net/index.php/open-source/downloads.html), install and ask for a certificate to Rosie. Once you have the program installed an icon should appear pn the tray bar (bottom right of the screen). Right click it and choose ```import file``` witch is your certificate. Connect to the VPN.
+* Download the software [OpenVpn](https://openvpn.net/index.php/open-source/downloads.html), install and ask for a certificate to Rosie. Once you have the program installed an icon should appear pn the tray bar (bottom right of the screen). Right click it and choose ```import file``` witch is your certificate. Connect to the VPN.
 
 # Basic GIT command
 
