@@ -4,19 +4,19 @@
 
 * Open a shell command and type:
 
-```shell
+```bash
 grunt --skin=name-of-skin-you-want-to-build
 ```
 
 * Building login screen only:
 
-```shell
+```bash
 grunt login
 ```
 
 * Building admin screen only:
 
-```shell
+```bash
 grunt admin
 ```
 
