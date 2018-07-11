@@ -149,13 +149,13 @@ Always try to keep nesting and class chaining to a minimum.  No styles should be
 --------------------
 There are some good functions and mixins to make life easier
 
-**Function:**
+**Function: color-contrast**
 ```scss
 color-contrast($color,$dark,$light)
 ``` 
 creates a contrasting color to the given $color variable. defaults to ```black($dark)/white($light)```. Defaults can be altered when you call the function.  This function returns a single color value.
 
-**mixin:**
+**mixin: background-contrast**
 ```scss
 @include background-contrast($color,$dark,$light)
 ``` 
@@ -169,13 +169,13 @@ Sets the text color to a contrast of the ```background($color)```.  Defaults to 
 	}
 ``` 
 
-**mixin:**
+**mixin: background-contrast-hover**
 ```scss
 @include background-contrast-hover($color,$dark,$light)
 ``` 
 As above, but adds a hover effect.  Also adds in a generic transition.  Always use this for hovers unless there is a very specific use-case as it helps keep consistency.
 
-***mixin:***
+***mixin: text-hover***
 ``` 
 @include text-hover($color,$dark,$light)
 ``` 
