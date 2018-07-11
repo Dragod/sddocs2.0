@@ -195,7 +195,7 @@ As above, but adds a hover effect.  Also adds in a generic transition.  Always u
 
 
 **mixin: text-hover**
-``` 
+```scss
 @include text-hover($color,$dark,$light)
 ``` 
 Adds a hover and transition to text.  - there are generic classes for this, if you add a $cv-color variable to an `a` element (i.e. `a class="cv-g"` )
