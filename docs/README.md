@@ -150,28 +150,27 @@ Always try to keep nesting and class chaining to a minimum.  No styles should be
 There are some good functions and mixins to make life easier
 
 **Function:**
-```sass
+```scss
 color-contrast($color,$dark,$light)
 ``` 
-creates a contrasting color to the given $color variable. defaults to black($dark)/white($light). Defaults can be altered when you call the function.  This function returns a single color value.
+creates a contrasting color to the given $color variable. defaults to ```black($dark)/white($light)```. Defaults can be altered when you call the function.  This function returns a single color value.
 
 **mixin:**
-```sass
+```scss
 @include background-contrast($color,$dark,$light)
 ``` 
-Sets the text color to a contrast of the background($color).  Defaults to $cv-g2($dark)/$cv-g-4($light).
+Sets the text color to a contrast of the ```background($color)```.  Defaults to ```$cv-g2($dark) / $cv-g-4($light)```.
 
 **Note:** - Never do the following as it renders the mixin useless
-```sass
+```scss
 	.foo{
 		@include background-contrast($color,$dark,$light)
 		color:$color-var;
 	}
 ``` 
 
-
-***mixin:***
-``` 
+**mixin:**
+```scss
 @include background-contrast-hover($color,$dark,$light)
 ``` 
 
