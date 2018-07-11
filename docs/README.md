@@ -135,7 +135,7 @@ These should be used wherever we have a rounded or square element for consistenc
 <iframe width="100%" height="600" src="//jsfiddle.net/FabioP/fh5aL3yc/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 
-# Color Overrides
+## Color Overrides
 
 > a quick guide to writing the color/skin files in as sane a way as possible
 
