@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/Dragod/sddocs2.0#readme",
   "devDependencies": {
-    "docsify-cli": "^4.2.1"
-  }
+    "docsify": "^4.7.0",
+    "docsify-cli": "^4.2.1",
+    "kind-of": "^6.0.2"
+  },
+  "dependencies": {}
 }
