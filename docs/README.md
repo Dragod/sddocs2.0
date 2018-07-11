@@ -141,9 +141,20 @@ These should be used wherever we have a rounded or square element for consistenc
 
 > A quick guide to writing the color/skin files in as sane a way as possible
 
-### Nesting
+### General Rules
 ------------
-Always try to keep nesting and class chaining to a minimum.  No styles should be nested more than three deep, but in general try and keep to single classes.
+
+1.	For single items, always use the generic classes where possible in the html.  If you are writing a class that is single use, maybe a single button, look to see if there is a class already written to do the same thing and use that.  
+
+⋅⋅⋅ keep in mind that the generic classes often have extended functionality, like transistions, if statements for alternative variables.
+
+2.	Use the functions and mixins wherever possible.  This increases consistency and reduces possible bugs, while making the skinning process more robust.
+
+3.	Nesting - Always try to keep nesting and class chaining to a minimum.  No styles should be nested more than three deep, but in general try and keep to single classes, or single classes with base elements nested. (i.e. `.cs-list-menu li` ).
+
+4. Never attach anything to an ID
+
+5. Don't add anything to the color overrides that is not a color
 
 ### Mixins/Functions
 --------------------
@@ -155,7 +166,7 @@ color-contrast($color,$dark,$light)
 ``` 
 Creates a contrasting color to the given $color variable. defaults to ```black($dark)/white($light)```. Defaults can be altered when you call the function.  This function returns a single color value.
 
-==============================
+<hr />
 
 **mixin: background-contrast**
 ```scss
@@ -171,7 +182,7 @@ Sets the text color to a contrast of the ```background($color)```.  Defaults to 
 	}
 ``` 
 
-==============================
+<hr />
 
 
 **mixin: background-contrast-hover**
@@ -180,7 +191,7 @@ Sets the text color to a contrast of the ```background($color)```.  Defaults to 
 ``` 
 As above, but adds a hover effect.  Also adds in a generic transition.  Always use this for hovers unless there is a very specific use-case as it helps keep consistency.
 
-==============================
+<hr />
 
 
 **mixin: text-hover**
@@ -188,3 +199,5 @@ As above, but adds a hover effect.  Also adds in a generic transition.  Always u
 @include text-hover($color,$dark,$light)
 ``` 
 Adds a hover and transition to text.  - there are generic classes for this, if you add a $cv-color variable to an `a` element (i.e. `a class="cv-g"` )
+
+
