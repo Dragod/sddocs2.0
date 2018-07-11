@@ -174,4 +174,10 @@ Sets the text color to a contrast of the background($color).  Defaults to $cv-g2
 ``` 
 @include background-contrast-hover($color,$dark,$light)
 ``` 
+As above, but adds a hover effect.  Also adds in a generic transition.  Always use this for hovers unless there is a very specific use-case as it helps keep consistency.
 
+***mixin:***
+``` 
+@include text-hover($color,$dark,$light)
+``` 
+Adds a hover and transition to text.  - there are generic classes for this, if you add a $cv-color variable to an `a` element (i.e. `a class="cv-g"` )
