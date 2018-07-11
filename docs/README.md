@@ -146,7 +146,7 @@ These should be used wherever we have a rounded or square element for consistenc
 
 1.	For single items, always use the generic classes where possible in the html.  If you are writing a class that is single use, maybe a single button, look to see if there is a class already written to do the same thing and use that.  
 
---- keep in mind that the generic classes often have extended functionality, like transistions, if statements for alternative variables.
+⋅⋅⋅ keep in mind that the generic classes often have extended functionality, like transistions, if statements for alternative variables.
 
 2.	Use the functions and mixins wherever possible.  This increases consistency and reduces possible bugs, while making the skinning process more robust.
 
