@@ -19,7 +19,10 @@
   "devDependencies": {
     "docsify": "^4.7.0",
     "docsify-cli": "^4.2.1",
-    "kind-of": "^6.0.2"
+    "kind-of": "^6.0.2",
+    "parcel-bundler": "^1.9.4"
   },
-  "dependencies": {}
+  "dependencies": {
+    "docsify-themeable": "^0.1.2"
+  }
 }

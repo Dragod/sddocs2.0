@@ -4,22 +4,22 @@
 
 ## Using flex with unity 4.0 classes
 
-<iframe width="100%" height="600" src="//jsfiddle.net/FabioP/axbsrdc3/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="600" src="//jsfiddle.net/FabioP/axbsrdc3/embedded/html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 
 ## Forms
 
 ### Form item structure
 
-<iframe width="100%" height="350" src="//jsfiddle.net/FabioP/w1gsv485/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="350" src="//jsfiddle.net/FabioP/w1gsv485/embedded/html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ### Wrap form elements
 
-<iframe width="100%" height="200" src="//jsfiddle.net/FabioP/z32bhta5/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="200" src="//jsfiddle.net/FabioP/z32bhta5/embedded/html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ### Input Icons (single icon & double icons)
 
-<iframe width="100%" height="250" src="//jsfiddle.net/FabioP/gjy7f1ve/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="250" src="//jsfiddle.net/FabioP/gjy7f1ve/embedded/html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ## Utility Classes
 
@@ -81,7 +81,7 @@ These should be used wherever we have a rounded or square element for consistenc
 
 > Round & square element size as well as dropdown button
 
-<iframe width="100%" height="600" src="//jsfiddle.net/FabioP/zpsLatkx/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="600" src="//jsfiddle.net/FabioP/zpsLatkx/embedded/html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ### Fixed Modal Header
 
@@ -132,10 +132,7 @@ These should be used wherever we have a rounded or square element for consistenc
 
 > A basic default admin list template ready to use
 
-<iframe width="100%" height="600" src="//jsfiddle.net/FabioP/fh5aL3yc/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
-
-
-
+<iframe width="100%" height="600" src="//jsfiddle.net/FabioP/fh5aL3yc/embedded/html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ## Color Overrides
 
