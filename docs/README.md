@@ -136,7 +136,7 @@ These should be used wherever we have a rounded or square element for consistenc
       <a class="close-withPopup close-reveal-modal"></a>
 
     </div>
-    
+
 </div>
 ```
 
@@ -223,6 +223,6 @@ As above, but adds a hover effect.  Also adds in a generic transition.  Always u
 ```scss
 @include text-hover($color,$dark,$light)
 ``` 
-Adds a hover and transition to text.  - there are generic classes for this, if you add a $cv-color variable to an `a` element (i.e. `a class="cv-g"` )
+Adds a hover and transition to text.  - there are generic classes for this, if you add a ```$cv-color``` variable to an `a` element (i.e. `a class="cv-g"` )
 
 
