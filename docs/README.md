@@ -41,37 +41,33 @@ These should be used wherever we have a rounded or square element for consistenc
 > Round / square element example 
 
 ```html
-
-<!-- Rounded element -->
-
 <a class="rnd-small"></a>
-
-<!-- Square element -->
-
-<a class="sqr-small"></a>
-
 ```
 
-> Round / square element example with icon
+> Square element example 
 
 ```html
+<a class="sqr-small"></a>
+```
 
-<!-- Rounded with icon -->
+> Round element example with icon
 
+```html
 <a class="rnd-small">
 
     <i class="icon-bell-alt"></i>
 
 </a>
+```
 
-<!-- Square with icon -->
+> Square element example with icon
 
+```html
 <a class="sqr-small">
 
     <i class="icon-bell-alt"></i>
 
 </a>
-
 ```
 > Dropdown button
 
@@ -82,39 +78,6 @@ These should be used wherever we have a rounded or square element for consistenc
 > Round & square element size as well as dropdown button
 
 <iframe width="100%" height="600" src="//jsfiddle.net/FabioP/zpsLatkx/embedded/html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
-
-### Fixed Modal Header
-
-> Default header snippet for most modal window
-
-```html
-<div class="fixed-modal-header">
-    <h5 class="modal-title">
-        <span class="heading title">Title here</span>
-    </h5>
-    <div class="formButtons">
-      <button class="small" type="button">Button 1</button>
-      <button class="small" type="button">Button 2</button>
-      <a class="close-withPopup close-reveal-modal"></a>
-    </div>
-</div>
-```
-
-## Empty list centering with text & icon
-
-> Replace the class in the ```<i></i>``` element to match the one you need.
-
-```html
-<div class="flex flex-auto justify-center items-center">
-        <div class="flex flex-column">
-        <span class="empty-list-icon cv-g-text ma-b-1">
-            <i class="insert-your-icon-class-here"></i>
-        </span>
-        <span class="empty-list-text cv-g-text ma-b-half">Insert main text here</span>
-        <span class="empty-list-text cv-g-text">Insert secondary text here</span>
-    </div>
-    </div>
-```
 
 ### Padding / Margin
 
@@ -138,12 +101,59 @@ These should be used wherever we have a rounded or square element for consistenc
 * 3 - 3 rem
 * 4 - 4 rem
 
-> All the classes above are measured in rem.
+* All the classes above are measured in rem.
+
+> Gives 0.25 rem on left side
 
 ```html
-<div class="pa-l-qtr"> <!-- Gives 0.25 rem on left side -->
+<div class="pa-l-qtr"> 
+```
+> Gives a 1 rem margin all around
 
-<div class="ma-all-1"> <!-- Gives a 1 rem margin all around -->
+```html
+<div class="ma-all-1"> 
+```
+
+## Fixed Modal Header
+
+> Default header snippet for most modal window
+
+```html
+<div class="fixed-modal-header">
+
+    <h5 class="modal-title">
+
+        <span class="heading title">Title here</span>
+
+    </h5>
+
+    <div class="formButtons">
+
+      <button class="small" type="button">Button 1</button>
+
+      <button class="small" type="button">Button 2</button>
+
+      <a class="close-withPopup close-reveal-modal"></a>
+
+    </div>
+    
+</div>
+```
+
+## Empty list centering with text & icon
+
+> Replace the class in the ```<i></i>``` element to match the one you need.
+
+```html
+<div class="flex flex-auto justify-center items-center">
+        <div class="flex flex-column">
+        <span class="empty-list-icon cv-g-text ma-b-1">
+            <i class="insert-your-icon-class-here"></i>
+        </span>
+        <span class="empty-list-text cv-g-text ma-b-half">Insert main text here</span>
+        <span class="empty-list-text cv-g-text">Insert secondary text here</span>
+    </div>
+    </div>
 ```
 
 ## Admin List template
