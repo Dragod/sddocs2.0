@@ -85,6 +85,8 @@ These should be used wherever we have a rounded or square element for consistenc
 
 ### Fixed Modal Header
 
+> Default header snippet for most modal window
+
 ```html
 <div class="fixed-modal-header">
     <h5 class="modal-title">
@@ -96,6 +98,22 @@ These should be used wherever we have a rounded or square element for consistenc
       <a class="close-withPopup close-reveal-modal"></a>
     </div>
 </div>
+```
+
+## Empty list centering with text & icon
+
+> Replace the class in the ```<i></i>``` element to match the one you need.
+
+```html
+<div class="flex flex-auto justify-center items-center">
+        <div class="flex flex-column">
+        <span class="empty-list-icon cv-g-text ma-b-1">
+            <i class="insert-your-icon-class-here"></i>
+        </span>
+        <span class="empty-list-text cv-g-text ma-b-half">Insert main text here</span>
+        <span class="empty-list-text cv-g-text">Insert secondary text here</span>
+    </div>
+    </div>
 ```
 
 ### Padding / Margin
