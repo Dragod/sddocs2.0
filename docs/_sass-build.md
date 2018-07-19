@@ -5,7 +5,7 @@
 * Open a shell command and type:
 
 ```bash
-grunt --skin=name-of-skin-you-want-to-build
+grunt --skin=skin-name
 ```
 
 * Building login screen only:
@@ -18,5 +18,23 @@ grunt login
 
 ```bash
 grunt admin
+```
+
+* Building core and skin
+
+```bash
+grunt sd --skin=skin-name
+```
+
+* Building only color
+
+```bash
+grunt sd-color --skin=skin-name
+```
+
+* Building only core
+
+```bash
+grunt sd-core
 ```
 
