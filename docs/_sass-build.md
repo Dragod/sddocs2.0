@@ -4,7 +4,7 @@
 
 * Build everything, core, skin, admin, login and post css. Best suited for distribution
 
-```bash
+```js
 grunt --skin=skin-name
 ```
 
@@ -12,43 +12,43 @@ grunt --skin=skin-name
 
 * Building core & skin:
 
-```bash
+```js
 grunt sd --skin=skin-name
 ```
 
 * Building core & skin + keep watching:
 
-```bash
+```js
 grunt sd-watch --skin=skin-name
 ```
 
 * Building login screen only:
 
-```bash
+```js
 grunt login
 ```
 
 * Building admin screen only:
 
-```bash
+```js
 grunt admin
 ```
 
 * Building only color:
 
-```bash
+```js
 grunt sd-color --skin=skin-name
 ```
 
 * Building only core
 
-```bash
+```js
 grunt sd-core
 ```
 
 * List of grunt task
 
-```bash
+```js
 grunt availabletasks
 ```
 
