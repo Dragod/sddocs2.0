@@ -80,6 +80,33 @@ NPM does have some options when installing package, I will cover the very basic:
 > [NPM flags and other options - article](https://docs.npmjs.com/cli/install)
 
 
+### Typescript
+
+> This should be already installed if you did a ```npm install```
+
+Open a command line and type: ```tsc -v``` and press ```ENTER```. If typescript is installed correctly you should a messasge similar to: ```Version x.x.x```, if it return an error something went wrong, then:
+
+```shell
+npm install -g typescript
+```
+
+If you keep having problem with typescript, you might have installed 2 different version. Get rid of one.
+
+#### Typescript Watch
+
+Compiler will run everytime you hit save.
+
+> This does not work on some older typescript version
+
+```shell
+tsc -w
+```
+
+
+
+You should have this alread
+
+
 ## Visual Studio Express
 
 Download and install [Visual studio Express](https://www.visualstudio.com/vs/visual-studio-express/)
