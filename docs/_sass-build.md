@@ -2,7 +2,7 @@
 
 > We are using grunt for the build process so make sure you already have it installed as well as the grunt-cli tool.
 
-> This will build everything, core, skin, admin, login and post css. Best suited for distribution
+* Bild everything, core, skin, admin, login and post css. Best suited for distribution
 
 ```bash
 grunt --skin=skin-name
@@ -45,4 +45,11 @@ grunt sd-color --skin=skin-name
 ```bash
 grunt sd-core
 ```
+
+* List of grunt task
+
+```bash
+grunt availabletasks
+```
+
 
