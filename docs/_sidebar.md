@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md -->
 - [Docs](/)
-- [Colors](_colors.md)
+- [Skinning](_colors.md)
 - **Other**
 - [Sass Build](_sass-build.md)
 - [Js Configuration](_js-configuration.md)
