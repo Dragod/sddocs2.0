@@ -42,3 +42,25 @@ Two other variables are available to affect how the skin looks:
 
 * $color-adjust-ratio:
 > this controls the difference between the lighter/darker versions of the colours…. Set to 40% as default, increase for a greater shift between colors, decrease for the opposite.
+
+
+## Fonts
+
+There is a mixin for importing fonts in the _fonts.scss_ file.  You can call this in the config file _after_ the fonts file is imported
+
+To use it, first you need to build up an array of the different fonts that are to be included in the font family.  the array elements are made up of the font suffix (i.e. light, bold), the font-weight that this corrensponds too (100, 300 etc), and whether the font is normal or italic.
+
+example:
+
+```
+$custom-font: (
+	(extra-light,200,normal),
+	(bold-italic,600,italic)
+	);
+````
+
+
+
+
+
+
