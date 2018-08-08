@@ -1,6 +1,6 @@
 # Skins 
 
-###Colours 
+## Colours 
 
 > All colors classes starts with ```.cv-```
 
